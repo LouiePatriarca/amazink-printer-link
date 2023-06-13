@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Printer
@@ -15,6 +8,12 @@ namespace Printer
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void lineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LineSettings line = new LineSettings();
+            line.ShowDialog();
         }
     }
 }

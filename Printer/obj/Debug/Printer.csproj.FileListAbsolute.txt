@@ -9,3 +9,19 @@ C:\Users\Louie Patriarca\source\repos\Amazink.Printer\Printer\obj\Debug\Printer.
 C:\Users\Louie Patriarca\source\repos\Amazink.Printer\Printer\obj\Debug\Printer.csproj.CoreCompileInputs.cache
 C:\Users\Louie Patriarca\source\repos\Amazink.Printer\Printer\obj\Debug\Printer.exe
 C:\Users\Louie Patriarca\source\repos\Amazink.Printer\Printer\obj\Debug\Printer.pdb
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Printer.exe.config
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Printer.exe
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Printer.pdb
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.AssemblyReference.cache
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.LineForm.resources
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.LineSettings.resources
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.Main.resources
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.Properties.Resources.resources
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.GenerateResource.cache
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.CoreCompileInputs.cache
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.exe
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.pdb
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.CopyComplete
