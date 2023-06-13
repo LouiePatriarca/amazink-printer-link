@@ -25,3 +25,19 @@ C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printe
 C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Software\Documents\Github\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Software\Documents\Github\amazink-printer-link\Printer\obj\Debug\Printer.csproj.CopyComplete
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\bin\Debug\Printer.exe.config
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\bin\Debug\Printer.exe
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\bin\Debug\Printer.pdb
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.csproj.AssemblyReference.cache
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.LineForm.resources
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.LineSettings.resources
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.Main.resources
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.Properties.Resources.resources
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.csproj.GenerateResource.cache
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.csproj.CoreCompileInputs.cache
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.csproj.CopyComplete
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.exe
+C:\Users\Louie Patriarca\OneDrive\Documents\GitHub\amazink-printer-link\Printer\obj\Debug\Printer.pdb

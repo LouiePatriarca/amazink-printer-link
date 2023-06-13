@@ -25,19 +25,41 @@ namespace Printer
 
         private void ButtonEdit_Click(object sender, EventArgs e)
         {
-            LineForm lineForm = new LineForm(listView1.SelectedIndices[0]);
-            lineForm.ShowDialog();
+            if (listView1.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = listView1.SelectedItems[0];
+
+                DataItem item = new DataItem
+                {
+                    Line = selectedItem.SubItems[0].Text,
+                    IPAddress = selectedItem.SubItems[1].Text,
+                    Port = int.Parse(selectedItem.SubItems[2].Text)
+                };
+                LineForm lineForm = new LineForm(listView1.SelectedIndices[0], item);
+                var result = lineForm.ShowDialog();
+                if (result.Equals(DialogResult.OK))
+                {
+                    ReadData();
+                }
+            }
         }
 
         private void ButtonDelete_Click(object sender, EventArgs e)
         {
             if (listView1.SelectedIndices.Count > 0)
             {
-                LineCrud crud = new LineCrud();
-                crud.Delete(listView1.SelectedIndices[0]);
-                ReadData();
+                // Display a confirmation dialog
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this item?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    LineCrud crud = new LineCrud();
+                    crud.Delete(listView1.SelectedIndices[0]);
+                    ReadData();
+                }
             }
         }
+
 
         public void ReadData() {
             // Assuming you have a ListView control named listView1 with the View property set to View.Details

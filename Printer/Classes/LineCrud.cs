@@ -21,15 +21,15 @@ namespace Printer.Classes
             return ReadJsonData();
         }
 
-        public void Update(int? lineNumber, string newLine, string newIpAddress, int newPort)
+        public void Update(int? lineNumber, DataItem dataItem)
         {
             List<DataItem> dataItems = ReadJsonData();
             if (lineNumber >= 0 && lineNumber < dataItems.Count)
             {
                 DataItem item = dataItems[(int)lineNumber];
-                item.Line = newLine;
-                item.IPAddress = newIpAddress;
-                item.Port = newPort;
+                item.Line = dataItem.Line;
+                item.IPAddress = dataItem.IPAddress;
+                item.Port = dataItem.Port;
                 WriteJsonData(dataItems);
             }
         }
@@ -65,7 +65,7 @@ namespace Printer.Classes
         private string GetFilePath()
         {
             string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            string folderPath = Path.Combine(appDataFolder, "YourAppName");
+            string folderPath = Path.Combine(appDataFolder, "Splash");
 
             if (!Directory.Exists(folderPath))
             {

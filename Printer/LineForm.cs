@@ -20,9 +20,13 @@ namespace Printer
             InitializeComponent();
         }
 
-        public LineForm(int id)
+        public LineForm(int? id, DataItem item)
         {
+            InitializeComponent();
             this.id = id;
+            TextLine.Text = item.Line;
+            TextIP.Text = item.IPAddress;
+            TextPort.Value = item.Port;
         }
 
         private void ButtonSave_Click(object sender, EventArgs e)
@@ -36,8 +40,14 @@ namespace Printer
             }
             else
             {
-                DataItem dataItem = new DataItem();
-                lineCrud.Update(id, dataItem.Line, dataItem.IPAddress, dataItem.Port);
+                DataItem dataItem = new DataItem { 
+                    Line = TextLine.Text,
+                    IPAddress = TextIP.Text,
+                    Port = (int)TextPort.Value
+                };
+                lineCrud.Update(id, dataItem);
+                DialogResult = DialogResult.OK;
+                Close();
             }
         }
     }
